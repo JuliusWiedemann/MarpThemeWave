@@ -1,0 +1,145 @@
+/* @theme wave */
+
+@import "default";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: url("../source/background.svg");
+    background-size: 100%;
+}
+
+/* Heading style */
+h1 {
+   color: white;
+}
+
+h3 {
+    color: #80B3FF;
+    font-weight: 400;
+}
+
+/* Footer style */
+footer {
+    color: white;
+}
+
+/* Pagination style */
+section::after {
+    color: white;
+    font-size: medium;
+}
+
+/* Table style */
+table, tr, td, th {
+    all: unset; 
+    background: transparent !important;
+    border-width: 10x !important;
+    border-top: 1px solid #ddd;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid #ddd;
+}
+
+table { 
+    display: table; 
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr { 
+    display: table-row;
+}
+
+td, th { 
+    display: table-cell; 
+    padding: 20px !important;
+    text-align: center;
+}
+
+td {
+    font-size: smaller;
+}
+
+/* Code style */
+pre {
+    background-color: #002233;
+    border: none;
+    border-radius: 37px;
+    box-shadow:  13px 13px 31px #000f17,
+             -13px -13px 31px #00354f;
+}
+
+/* Cody syntax highlighting: tomorrow-night-blue */
+.hljs-comment,
+.hljs-quote {
+  color: #7285b7;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ff9da4;
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #ffc58f;
+}
+
+.hljs-attribute {
+  color: #ffeead;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #d1f1a9;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #bbdaff;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ebbbff;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #002451;
+  color: white;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* Allow 2 text columns on one slide */
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
