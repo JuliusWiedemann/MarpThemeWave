@@ -13,8 +13,8 @@ _footer: ""
 _paginate: false 
 -->
 
-# Title of the presentation
-### Subtitle - Lorem ipsum dolor sit amet
+# Wave Theme
+### Custom theme "wave" for the marp presentation framework
 
 ---
 
@@ -126,9 +126,5 @@ int main() {
 - ut labore et dolore 
 - sed diam voluptua
 - et justo duo 
-
----
-
----
 
 ---
