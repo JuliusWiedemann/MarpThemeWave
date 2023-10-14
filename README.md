@@ -1,10 +1,12 @@
 # Marp Theme: Wave
 
-![](example/example-presentation-1.jpg)
+![](example/example-presentation-page-1.jpg)
 
-![](example/example-presentation-2.jpg)
+![](example/example-presentation-page-2.jpg)
 
-![](example/example-presentation-3.jpg)
+![](example/example-presentation-page-3.jpg)
+
+![](example/example-presentation-page-4.jpg)
 
 ## Installation
 Download the ./source directory and add this to your settings.json in vs code:
@@ -15,6 +17,16 @@ Download the ./source directory and add this to your settings.json in vs code:
       "./source/wave.css"
     ]
 }
+```
+
+Now you can use "wave" as a normal marp template:
+```
+---
+marp: true
+theme: wave
+paginate: true
+transition: fade 0.3s
+---
 ```
 
 ## Sources

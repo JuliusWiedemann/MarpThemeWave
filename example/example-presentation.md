@@ -13,7 +13,7 @@ _footer: ""
 _paginate: false 
 -->
 
-# Wave Theme
+# Wave Theme 🌊
 ### Custom theme "wave" for the marp presentation framework
 
 ---
@@ -65,24 +65,33 @@ Text | Text | Text | Text
 
 ---
 
-<!-- _footer: "" -->
+<!-- 
+_header: ""
+_footer: "" 
+-->
 ![bg left:25% width:200](icon.png)
 _Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At ve_
 
 ---
 
-## Coding
+# Big image with text
+![bg right width:500px](./icon.png)
+
+
+---
+
+## Python Code
 ```python
-class myperson:
+class MyPerson:
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
 
-    def GetName(self):
-        self.AskedForName = True
+    def getName(self):
         return self.name
 
-print(myperson("Mike", 20, "m").GetName())
+mike = MyPerson("Mike", 20, "m")
+print(mike.getName())
 ```
 
 ---
@@ -117,14 +126,3 @@ int main() {
   return 0;
 }
 ```
-
----
-
-# Big image with text
-![bg right width:500px](./icon.png)
-
-- ut labore et dolore 
-- sed diam voluptua
-- et justo duo 
-
----
