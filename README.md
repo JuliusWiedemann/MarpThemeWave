@@ -9,15 +9,9 @@
 ![](example/example-presentation-page-4.jpg)
 
 ## Installation
-Download the ./source directory and add this to your settings.json in vs code:
-```json
-{
-    "markdown.marp.themes": 
-    [
-      "./source/wave.css"
-    ]
-}
-```
+- Open your VS Code settings (Strg + ,)
+- Search for "Marp Themes" and click "add element"
+- Add this link: `https://raw.githubusercontent.com/JuliusWiedemann/MarpThemeWave/main/source/wave.css`
 
 Now you can use "wave" as a normal marp template:
 ```
@@ -27,6 +21,16 @@ theme: wave
 paginate: true
 transition: fade 0.3s
 ---
+```
+
+You can also add this to you settings.json file:
+```json
+{
+    "markdown.marp.themes": 
+    [
+      "https://raw.githubusercontent.com/JuliusWiedemann/MarpThemeWave/main/source/wave.css"
+    ]
+}
 ```
 
 ## Sources
