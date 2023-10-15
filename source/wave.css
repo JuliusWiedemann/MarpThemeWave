@@ -6,7 +6,7 @@
 :root {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-image: url("../source/background.svg");
+    background-image: url("https://raw.githubusercontent.com/JuliusWiedemann/MarpThemeWave/main/source/background.svg");
     background-size: 100%;
 }
 
